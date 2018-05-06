@@ -59,7 +59,7 @@
   
   /* Container around content */
   .container-timeline {
-    padding: 10px 40px;
+    padding: 5px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -77,6 +77,9 @@
     top: 15px;
     border-radius: 50%;
     z-index: 1;
+  }
+  .header-left{
+    text-align: right;
   }
   
   /* Place the container to the left */
@@ -124,10 +127,12 @@
   
   /* The actual content */
   .content-timeline {
-    padding: 20px 30px;
+    padding: 10px 10px 1px 5px;
+    font-size: 15px;
     background-color: lightgray;
     position: relative;
     border-radius: 6px;
+    
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -161,4 +166,7 @@
     .right {
       left: 0%;
     }
+    .header-left{
+        text-align: left;
+      }
   }
